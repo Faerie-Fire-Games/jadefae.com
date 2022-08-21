@@ -71,6 +71,8 @@ if (isset($_POST['Email'])) {
 
     Thank you for contacting me. I'll be in touch with you very soon.
 
-<?php
+    header( "Location: https://jadefae.com/contact.html" );
+
+    <?php
 }
 ?>
